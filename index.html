@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Мировые исторические события</title>
+    <link rel="stylesheet" href="Karta.css">
+</head>
+<body>
+    <h1>Мировые исторические события</h1>
+    <div class="year-selector">
+        <label for="year-select">Выберите год:</label>
+        <select id="year-select">
+            <option value="-2000">2000 г. до н.э.</option>
+            <option value="-490">490 г. до н.э.</option>
+            <option value="-44">44 г. до н.э.</option>
+            <option value="79">79 н.э.</option>
+            <option value="1066">1066</option>
+            <option value="1453">1453</option>
+            <option value="1492">1492</option>
+            <option value="1760">1760</option>
+            <option value="1772">1772</option>
+            <option value="1776">1776</option>
+            <option value="1789-1799">1789-1799</option>
+            <option value="1793">1793</option>
+            <option value="1795">1795</option>
+            <option value="1812">1812</option>
+            <option value="1861">1861</option>
+            <option value="1866">1866</option>
+            <option value="1914">1914</option>
+            <option value="1917">1917</option>
+            <option value="1933">1933</option>
+            <option value="1939">1939</option>
+            <option value="1940">1940</option>
+            <option value="1950-1953">1950-1953</option>
+            <option value="1955-1975">1955-1975</option>
+            <option value="1961">1961</option>
+            <option value="1969">1969</option>
+            <option value="1979">1979</option>
+            <option value="1979-1989">1979-1989</option>
+            <option value="1991">1991</option>
+            <option value="1994-1996">1994-1996</option>
+            <option value="1999-2009">1999-2009</option>
+            <option value="2001">2001</option>
+            <option value="2004">2004</option>
+            <option value="2001-2021">2001-2021</option>
+            <option value="2003-2011">2003-2011</option>
+        </select>
+    </div>
+    <div class="map-container">
+        <img src="Karta.jpg" alt="Карта мира" class="map-image">
+    </div>
+    <div class="modal-overlay">
+        <div class="modal-content">
+            <button class="close-modal">X</button>
+            <div id="event-details"></div>
+        </div>
+    </div>
+    <script src="Year.js"></script>
+</body>
+</html>
