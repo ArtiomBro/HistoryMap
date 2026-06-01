@@ -156,20 +156,23 @@ h1 {
 
 .event-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-areas:
-        "desc center"
-        "details details";
+        "desc"
+        "details";
     gap: 30px;
     align-items: start;
 }
 
 .event-description-block {
     grid-area: desc;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 30px;
+    align-items: start;
 }
 
 .event-center-block {
-    grid-area: center;
     text-align: center;
     display: flex;
     flex-direction: column;
