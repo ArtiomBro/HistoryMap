@@ -1,0 +1,19 @@
+/* Keep the event modal scrollbar visible at the edge of its container. */
+.modal-content {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #eee;
+}
+
+.modal-content::-webkit-scrollbar {
+    display: block;
+    width: 10px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+    background: #eee;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 8px;
+}
